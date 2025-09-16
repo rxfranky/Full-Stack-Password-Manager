@@ -1,12 +1,24 @@
-# React + Vite
+# 🔐 Password Manager Web App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a **Password Manager Web Application** built using **React**, **Node.js**, and **Express.js**. The app provides a secure way for users to store, manage, and retrieve their passwords with authentication and authorization features.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **User Authentication & Authorization**: Secure login and registration system using JWT.  
+- **Validation**: Input validation with **express-validator** to ensure data integrity.  
+- **Email Management**: Integrated **nodemailer** for email verification, password reset, and notifications.  
+- **Password Management**: Add, edit, delete, and manage saved credentials.  
+- **Responsive Design**: Modern UI built with **TailwindCSS**, works well on desktop and mobile.  
 
-## Expanding the ESLint configuration
+## Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React**: Frontend framework for building the UI  
+- **TailwindCSS**: Utility-first CSS framework for responsive design  
+- **Node.js**: Backend runtime environment  
+- **Express.js**: Server framework for API handling  
+- **express-validator**: For input validation  
+- **nodemailer**: For email functionality (verification, reset)  
+- **Authentication & Authorization**: Secure access and role management with JWT 
+- **Database**: MongoDB for data management 
+
+
