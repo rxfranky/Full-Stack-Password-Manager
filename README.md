@@ -8,12 +8,12 @@ This is a **Password Manager Web Application** built using **React**, **Node.js*
 - **Validation**: Input validation with **express-validator** to ensure data integrity.  
 - **Email Management**: Integrated **nodemailer** for email verification, password reset, and notifications.  
 - **Password Management**: Add, edit, delete, and manage saved credentials.  
-- **Responsive Design**: Modern UI built with **TailwindCSS**, works well on desktop and mobile.  
+- **Design**: Modern UI built with **TailwindCSS**  
 
 ## Technologies Used
 
 - **React**: Frontend framework for building the UI  
-- **TailwindCSS**: Utility-first CSS framework for responsive design  
+- **TailwindCSS**: Utility-first CSS framework for Design  
 - **Node.js**: Backend runtime environment  
 - **Express.js**: Server framework for API handling  
 - **express-validator**: For input validation  
